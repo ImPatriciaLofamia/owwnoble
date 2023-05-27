@@ -5,7 +5,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Navigation />
-      <div className="w-full  px-32">{children}</div>
+      <div className="w-full py-10 px-32">{children}</div>
     </>
   );
 }
