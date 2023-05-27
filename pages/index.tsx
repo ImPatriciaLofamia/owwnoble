@@ -11,7 +11,7 @@ export default function Home() {
             className={`sm:text-4xl text-2xl font-bold mb-6 w-full sm:w-2/3 
         `}
           >
-            Hello, I am Patricia Lofamia. I'm a Frontend Developer.
+            Hello, I am Patricia Lofamia. I am a Frontend Developer.
           </label>
         </div>
         <button className="border-2 shadow-sm w-1/3"> About me</button>
