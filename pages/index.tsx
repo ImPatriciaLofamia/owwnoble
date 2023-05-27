@@ -8,7 +8,7 @@ export default function Home() {
       <div className="space-y-8">
         <div className="w-1/2">
           <label
-            className={`sm:text-4xl text-2xl font-bold mb-6 w-full sm:w-2/3 
+            className={`sm:text-2xl text-2xl font-bold mb-6 w-full sm:w-2/3 
         `}
           >
             Hello, I am Patricia Lofamia. I am a Frontend Developer.
