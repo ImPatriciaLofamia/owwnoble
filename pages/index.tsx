@@ -103,7 +103,7 @@ export default function Home() {
             <div className="sm:w-6/12 2xl:w-4/12 flex items-end justify-center">
               <Image
                 className="rounded-lg"
-                src="/pat.jpg"
+                src="pat.jpg"
                 alt="patricia lofamia img"
                 width={400}
                 height={400}
