@@ -4,8 +4,14 @@ import {
   SiReact,
   SiNextdotjs,
   SiGithub,
-  SiFigma
+  SiFigma,
+  SiFacebook, 
+  SiTwitter,
+  SiInstagram,
+  SiLinkedin,
+  
 } from "react-icons/si";
+import {VscCallIncoming} from "react-icons/vsc"
 
 export const skills = [
   {
@@ -45,3 +51,37 @@ export const skills = [
     contents: ``
   }
 ];
+
+export const contacts = [
+    {
+        id: 1,
+        title: 'Facebook',
+        icon: <SiFacebook size={30}/>,
+        content: `fb//owwnoblee`,
+        link: 'https://web.facebook.com/owwnoblee'
+    },
+    {
+        id: 2,
+        title: 'Twitter',
+        icon: <SiTwitter size={30}/>,
+        content: `twitter//oww_noble`
+    },
+    {
+        id: 3,
+        title: `Instagram`,
+        icon: <SiInstagram size={30}/>,
+        content: `ig//oww_noble`
+    },
+    {
+        id: 4,
+        title: `LinkedIn`,
+        icon: <SiLinkedin size={30}/>,
+        content: `linkedin//patricialofamia`
+    },
+    {
+        id: 5,
+        title: `Mobile Number`,
+        icon: <VscCallIncoming size={30}/>,
+        content: '09949241944'
+    }
+]
