@@ -6,7 +6,7 @@ interface ContactCardProps {
 
 const ContactCard = ({children}: ContactCardProps) => {
   return (
-    <div className='z-20 w-1/2  border-2 shadow-2xl px-5 py-8 bg-black text-white rounded-xl'>
+    <div className='z-20 w-full  border-2 shadow-green-500 shadow-2xl pl-10 py-10 rounded-xl'>
     {children}
     </div>
   )
